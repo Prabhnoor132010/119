@@ -1,0 +1,30 @@
+body{
+    background-color: darkgoldenrod;
+}
+h1{
+    color: blue;
+    background-color: coral;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border: 10px solid wheat;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 13s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 10000px black ;}
+    to{box-shadow: 5px 5px 10000px white ;}
+}
+
+
+
+p{
+    padding-top: 10px;
+    font-size: 30px;
+}
